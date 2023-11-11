@@ -25,9 +25,10 @@
 	<div id="map"></div>
 	<script>
 	  function initMap(){
-	    let Sarajevo = {lat:43.85756120394474, lng:18.41114065957382}
-		,zoom: 10
-		});
+	    let Sarajevo = {lat:43.85756120394474, lng:18.41114065957382};
+		
+		let map = new google.maps.Map(document.getElementByid('map'),{zoom: 4, center: Sarajevo}
+		);
 		}
 	</script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbuB6NwnyYcr2HOYV2RoYcv8VEOQGhCxU&callback=initMap"></script>	
