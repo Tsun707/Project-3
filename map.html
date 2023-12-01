@@ -5,6 +5,7 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="basicmap.css">
+	<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyD5YxvOrTlX5iRQS1Gjqsl74lmMod265QM"></script>
   </head>
   <body>
     <h3>Disintegration of Yugoslavia</h3>
@@ -14,12 +15,10 @@
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
+          center: {lat: 43.85756120394474, lng: 18.41114065957382},
           zoom: 8
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyD5YxvOrTlX5iRQS1Gjqsl74lmMod265QM&callback=initMap"
-    async defer></script>
   </body>
 </html>
