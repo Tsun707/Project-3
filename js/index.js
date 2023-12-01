@@ -6,8 +6,14 @@ let map;
 	 const{AdvancedMarkerView} = await google.maps.importLibrary('maker');
 	 map = new map(document.getElementById("map"),{
 		 zoom: 4,
-		 center: position,
-		 
+		 center: position,		 
 	 });
+	 
+	 const marker = new AdvancedMarkerView({
+		 map: map,
+		 position: position,
+		 title: "Sarajevo",
+	 });
+ }
 
-  window.addEventListener('load', init);
+  initMap();
