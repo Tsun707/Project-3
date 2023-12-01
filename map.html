@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Map</title>
-  <script async src="js/script.js"></script>
+   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script async src="js/index.js"></script>
 </head>
 
 <body>
@@ -19,17 +20,6 @@
     </header>
   <h3>Disintegration of Yugoslavia</h3>
   <div id="map"></div>
-  <script>
-    function initMap(){
-	  let sarajevo = {lat:43.858551426878236, lng:18.412856928904617};
-	  let map = new google.maps.Map(
-      document.getElementById('map'),{zoom: 4, center: sarajevo}
-	  );
-	}
-	</script>
-  
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbuB6NwnyYcr2HOYV2RoYcv8VEOQGhCxU&callback=initMap">
-  </script>
 </body>
 </html>
   	
