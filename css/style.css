@@ -159,6 +159,25 @@ footer p{
 	margin: 0;
 }
 
+#mapfooter{
+	background-color:gray;
+	bottom: 0;
+	
+}
+#map{
+	width: 70%;
+	height: 80%;
+	float: right;
+	margin: 10px,0px;
+	padding: 10px, 0px;
+	border-radius: 5px;
+	background-color: red;
+}
 
+#mapcontext p{
+	width: 30%;
+	line-height:25px;
+	
+}
 
 
