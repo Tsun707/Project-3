@@ -158,10 +158,10 @@ footer p{
 	width: 100%;
 	margin: 0;
 }
-
 #mapfooter{
-	background-color:gray;
 	bottom: 0;
+	background-color:gray;
+
 	
 }
 #map{
@@ -174,10 +174,24 @@ footer p{
 	background-color: red;
 }
 
-#mapcontext p{
-	width: 30%;
+#mapcontext {
+	height:60%;
 	line-height:25px;
-	
+}
+
+#mapfooter{
+	padding: 10px 30px;
+	bottom: 0px;
+	width: 30%;
+	height: 60px;
+}
+
+#bosnia{
+	color:white;
+	width:25%;
+	padding: 10px;
+	background: #3083DC;
+	margin: 0px 10px 10px 20px;
 }
 
 
